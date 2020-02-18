@@ -35,6 +35,13 @@ function draw() {
   } else {
     fill (random(255), random(255),random(255));
       }
+    
+      
+  if (mouseIsPressed){
+    fill(255);
+  } else {
+    fill (random(255), random(255),random(255));
+      }
       
   
      
@@ -49,7 +56,5 @@ function draw() {
    
       
     }
-  
- 
   
 }
